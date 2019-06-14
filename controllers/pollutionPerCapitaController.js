@@ -22,4 +22,6 @@ router.get('/:countryName', (req, res) => {
 			console.log(err);
 		});
 });
+
+
 module.exports = router;
